@@ -122,3 +122,18 @@ localhost:8080/oauth/authorize?client_id=client&response_type=code&redirect_uri=
 访问时Spring让你登陆,随便输入一个用户名密码即可.
 
 数据库连接信息在`application.properties`中配置。
+
+
+
+
+http://localhost:8080/h2-console
+http://localhost:8080/api/
+
+
+You have to initialize the data directory by running the following command
+mysqld --initialize [with random root password]
+mysqld --initialize-insecure [without random root password]
+
+
+mysqld --initialize-insecure
+mysqld.exe --console
